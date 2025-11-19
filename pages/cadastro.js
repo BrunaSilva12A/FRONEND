@@ -37,4 +37,6 @@ async function signUpEagle() {
 
   const data = await response.json()
   alert(data.message)
+
+  window.location.href = "../index.html"
 }
